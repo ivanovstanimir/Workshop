@@ -15,6 +15,7 @@ export default {
     movies.push({
       id: newId,
       ...movieData,
+      ratting: Number(movieData.rating),
     });
 
     return newId;
